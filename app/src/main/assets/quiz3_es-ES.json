@@ -1,0 +1,190 @@
+{
+  "about": "¿Cuál es tu perfil académico?",
+  "answerTitle": "Serás: ",
+  "answerList": [
+    {
+      "possibleItem": [
+        {
+          "title": "Ingeniero en Ciencias Informáticas",
+          "explication": "La  formación académica en parte es similar a otras carreras afines (Ingeniería Informática, Ciencia de la Computación), desatándose su preparación teórico-práctica en Ingeniería   de Software  y Programación, así como  en otras disciplinas como Matemática, Inteligencia Computacional y Sistemas Digitales."
+        }
+      ]
+    },
+    {
+      "possibleItem": [
+        {
+          "title": "Ingeniero en Bioinformática",
+          "explication": "El currículo base de esta Ingeniería contempla asignaturas de las disciplinas Matemáticas, Matemáticas Aplicadas, Física General, Biología, Química, Informática, Bioinformática (con asignaturas de especialización) y Actividad Profesional Investigativa (que incluye amplios períodos de prácticas profesionales y entrenamiento en los centros de investigación)."
+        }
+      ]
+    },
+    {
+      "possibleItem": [
+        {
+          "title": "Ingeniero en Ciberseguridad",
+          "explication": "Recibe un grupo de contenidos que lo distingue de otras carreras universitarias como por ejemplo: Mecanismos de seguridad tecnológica para sistemas de detección de intrusiones, cortafuegos, protección contra programas malignos, análisis de trazas, sistemas criptográficos, gestión de vulnerabilidades y parches, respaldo de información, entre otros. Escaneos de seguridad y hacking ético. Análisis de la seguridad para el desarrollo de aplicaciones web, dispositivos móviles y otros. Seguridad en tecnologías emergentes como Internet de las Cosas, BlockChain y Big Data."
+        }
+      ]
+    },
+    {
+      "possibleItem": [
+        {
+          "title": "Técnico Superior de Administración de Redes y Seguridad Informática",
+          "explication": "Debe dominar los fundamentos teóricos y tecnológicos relacionados con elementos básicos de electrónica digital y analógica, arquitectura de computadoras, teleinformática, equipos de interconexión de redes y la administración segura de la infraestructura y de los servicios de la red."
+        }
+      ]
+    }
+  ],
+  "questionList": [
+    {
+      "title": "¿Qué problemas podrías resolver como ingeniero?",
+      "options": [
+        {
+          "text": "El desarrollo de la industria de software nacional, la transformación digital de las organizaciones y el soporte necesario para el mantenimiento de infraestructuras de tecnologías de la información.",
+          "pointToList": [
+            0
+          ]
+        },
+        {
+          "text": "Analizar e interpretar grandes cantidades de datos, provenientes la investigación experimental con el objetivo de generar conocimiento útil en el desarrollo de agentes bioactivos (medicamentos, vacunas).",
+          "pointToList": [
+            1
+          ]
+        },
+        {
+          "text": "La gestión de incidentes mediante la monitorización permanente del sistema de seguridad y la aplicación de técnicas de informática forense.",
+          "pointToList": [
+            2
+          ]
+        },
+        {
+          "text": "Implantación de políticas de seguridad en las redes informáticas e instalación de herramientas para garantizar la disponibilidad, confidencialidad e integridad de los servicios y sistemas informáticos.",
+          "pointToList": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Qué contenidos debes asimilar?",
+      "options": [
+        {
+          "text": "Preparación teórico-práctica en Ingeniería de Software  y Programación, así como  en otras disciplinas como Matemática, Inteligencia Computacional y Sistemas Digitales.",
+          "pointToList": [
+            0
+          ]
+        },
+        {
+          "text": "Matemáticas, Matemáticas Aplicadas, Física General, Biología, Química, Informática.",
+          "pointToList": [
+            1
+          ]
+        },
+        {
+          "text": "Análisis de riesgos y diseño de sistemas de ciberseguridad.",
+          "pointToList": [
+            2
+          ]
+        },
+        {
+          "text": "Electrónica digital y analógica, arquitectura de computadoras, teleinformática, equipos de interconexión de redes.",
+          "pointToList": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿En que áreas de la sociedad te gustaría ejercer?",
+      "options": [
+        {
+          "text": "Industria de Software Nacional.",
+          "pointToList": [
+            0
+          ]
+        },
+        {
+          "text": "Centros de Investigación y desarrollo (I+D+i) dedicados a la salud humana, animal y la sanidad vegetal, incluyendo a la industria biotecnológica y biofarmacéutica.",
+          "pointToList": [
+            1
+          ]
+        },
+        {
+          "text": "Instituciones especializadas en la defensa del ciberespacio nacional.",
+          "pointToList": [
+            2
+          ]
+        },
+        {
+          "text": "Segurmática.",
+          "pointToList": [
+            2,
+			3
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Qué línea de investigación te interesa?",
+      "options": [
+        {
+          "text": "Software Libre y Sistemas de Código Abierto.",
+          "pointToList": [
+            0
+          ]
+        },
+        {
+          "text": "Computación Científica.",
+          "pointToList": [
+            1
+          ]
+        },
+        {
+          "text": "Seguridad Informática.",
+          "pointToList": [
+            2,
+			3
+          ]
+        },
+        {
+          "text": "Redes.",
+          "pointToList": [
+            2,
+			3
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Qué Centro de Desarrollo y Estudio te interesa?",
+      "options": [
+        {
+          "text": "Centro de Software Libre.",
+          "pointToList": [
+            0
+          ]
+        },
+        {
+          "text": "Centro de Estudios de Matemática Computacional",
+          "pointToList": [
+            1
+          ]
+        },
+        {
+          "text": "Dirección de Seguridad Informática.",
+          "pointToList": [
+            2,
+			3
+          ]
+        },
+        {
+          "text": "Centro de Telemática.",
+          "pointToList": [
+            2,
+			3
+          ]
+        }
+      ]
+    }
+  ]
+}

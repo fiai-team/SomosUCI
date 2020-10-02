@@ -1,5 +1,6 @@
 package cu.fiai.uci.somosuci.ui.fragments
 
+import android.animation.ObjectAnimator
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,11 +12,16 @@ import androidx.navigation.fragment.findNavController
 import cu.fiai.uci.somosuci.R
 import cu.fiai.uci.somosuci.viewmodels.MainViewModel
 import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.main_menu_first_btn.*
+import kotlin.random.Random
 
 class MainFragment : Fragment() {
 
     private lateinit var mainViewModel: MainViewModel
     private lateinit var navController: NavController
+    private lateinit var fadeOut: ObjectAnimator
+    private lateinit var fadeIn: ObjectAnimator
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,7 +46,7 @@ class MainFragment : Fragment() {
     private fun configView() {
         navController = findNavController()
 
-        _university.setOnClickListener {
+        _seeMoreBtn.setOnClickListener {
             navController.navigate(R.id.action_mainFragment_to_universityFragment)
         }
 
@@ -55,5 +61,14 @@ class MainFragment : Fragment() {
         _courses.setOnClickListener {
             navController.navigate(R.id.action_mainFragment_to_coursesListFragment)
         }
+        putImg()
+    }
+
+    private fun putImg() {
+        val imgGroup = arrayListOf(
+            R.mipmap.air_view, R.mipmap.pregrade, R.mipmap.building1, R.mipmap.campus
+        )
+        val random = Random.nextInt(0, imgGroup.size)
+        _img1?.setImageResource(imgGroup[random])
     }
 }

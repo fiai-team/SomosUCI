@@ -59,6 +59,8 @@ class JsonManager(private val context: Context, private val lang: String = LANG_
     companion object {
         const val QUIZ_1 = "quiz1"
         const val QUIZ_2 = "quiz2"
+        const val QUIZ_3 = "quiz3"
+
         const val CONTACT_INFO_FILE = "contactInfo"
         const val ABOUT_INFO_FILE = "aboutInfo"
         const val ICI_INFO = "iciInfo"
@@ -71,6 +73,6 @@ class JsonManager(private val context: Context, private val lang: String = LANG_
         const val LANG_PT = "pt-PT"
         const val LANG_IT = "it-IT"
 
-        val QUIZZES = arrayListOf(QUIZ_1, QUIZ_2)
+        val QUIZZES = arrayListOf(QUIZ_1, QUIZ_2, QUIZ_3)
     }
 }
