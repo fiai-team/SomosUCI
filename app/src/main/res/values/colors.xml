@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#448AFF</color>
+
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+
+    <color name="csDark">#455a64</color>
+    <color name="csLight">#90a4ae</color>
+
+    <color name="ibiDark">#43a047</color>
+    <color name="ibiLight">#81c784</color>
+
+    <color name="redDark">#F57C00</color>
+    <color name="redLight">#FFAA2D</color>
+
+</resources>

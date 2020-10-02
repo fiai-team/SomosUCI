@@ -1,0 +1,214 @@
+{
+  "about": "¿Qué lenguaje de programación podría gustarte?",
+  "answerTitle": "Te gustará aprender: ",
+  "answerList": [
+    {
+      "possibleItem": [
+        {
+          "title": "Java",
+          "explication": ""
+        },
+        {
+          "title": "C#",
+          "explication": ""
+        },
+        {
+          "title": "Kotlin",
+          "explication": ""
+        },
+        {
+          "title": "Swift",
+          "explication": ""
+        },
+        {
+          "title": "Ruby",
+          "explication": ""
+        }
+      ]
+    },
+    {
+      "possibleItem": [
+        {
+          "title": "Pyhton",
+          "explication": ""
+        },
+        {
+          "title": "GO",
+          "explication": ""
+        }
+      ]
+    },
+    {
+      "possibleItem": [
+        {
+          "title": "JavaScript",
+          "explication": ""
+        },
+        {
+          "title": "TypeScript",
+          "explication": ""
+        }
+      ]
+    },
+    {
+      "possibleItem": [
+        {
+          "title": "C++",
+          "explication": ""
+        },
+        {
+          "title": "C",
+          "explication": ""
+        }
+      ]
+    }
+  ],
+  "questionList": [
+    {
+      "title": "¿Eres organizado en tu libreta?",
+      "options": [
+        {
+          "text": "Sí, muchísimo. Marco lo importante y señalo con indicaciones para luego estudiar.",
+          "pointToList": [
+            1
+          ]
+        },
+        {
+          "text": "Sí, siempre sé donde encontrar mis notas.",
+          "pointToList": [
+            2
+          ]
+        },
+        {
+          "text": "No lo necesito, memorizo todo en clase.",
+          "pointToList": [
+            3
+          ]
+        },
+        {
+          "text": "No mucho, pero entiendo lo que escribo.",
+          "pointToList": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Escribes toda la clase?",
+      "options": [
+        {
+          "text": "Sí, cada palabra para luego estudiar.",
+          "pointToList": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "Resumo bastante.",
+          "pointToList": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "No escribo nada que ya conozca.",
+          "pointToList": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Cuántas veces revisas una prueba antes de entregarla?",
+      "options": [
+        {
+          "text": "En cuanto termino entrego sin revisar mucho.",
+          "pointToList": [
+            2
+          ]
+        },
+        {
+          "text": "Reviso todo 100 veces.",
+          "pointToList": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "Tengo claro lo que escribí porque voy revisando en cada momento.",
+          "pointToList": [
+            3
+          ]
+        },
+        {
+          "text": "Depende de que tan importante sea. Si me siento aprobado entrego.",
+          "pointToList": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Qué dispositivos usas más tiempo?",
+      "options": [
+        {
+          "text": "El celular.",
+          "pointToList": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "El ordenador de la casa.",
+          "pointToList": [
+            0
+          ]
+        },
+        {
+          "text": "La consola de videojuegos.",
+          "pointToList": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "Donde sea para acceder a la web.",
+          "pointToList": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Qué modelo de estudio escogerías?",
+      "options": [
+        {
+          "text": "Uno rápido y sencillo.",
+          "pointToList": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Uno difícil y retador.",
+          "pointToList": [
+            3
+          ]
+        },
+        {
+          "text": "Uno que se aplique más al día a día.",
+          "pointToList": [
+            2
+          ]
+        },
+        {
+          "text": "Uno balanceado, rápido, útil y moderno.",
+          "pointToList": [
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

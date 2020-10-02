@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="cu.fiai.uci.somosuci.ui.fragments.MainFragment"
+        android:label="@string/f_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_gameSelectFragment"
+            app:destination="@id/gameSelectFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_coursesListFragment"
+            app:destination="@id/coursesListFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_universityFragment"
+            app:destination="@id/universityFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_contactFragment"
+            app:destination="@id/contactFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameSelectFragment"
+        android:name="cu.fiai.uci.somosuci.ui.fragments.GameSelectFragment"
+        android:label="@string/f_game_select"
+        tools:layout="@layout/fragment_game_select">
+        <action
+            android:id="@+id/action_gameSelectFragment_to_gameQuizFragment"
+            app:destination="@id/gameQuizFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameQuizFragment"
+        android:name="cu.fiai.uci.somosuci.ui.fragments.GameQuizFragment"
+        android:label="@string/f_game_quiz"
+        tools:layout="@layout/fragment_game_quiz" />
+    <fragment
+        android:id="@+id/coursesListFragment"
+        android:name="cu.fiai.uci.somosuci.ui.fragments.CoursesListFragment"
+        android:label="@string/f_courses"
+        tools:layout="@layout/fragment_courses_list">
+        <action
+            android:id="@+id/action_coursesListFragment_to_courseVPFragment"
+            app:destination="@id/courseVPFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/courseVPFragment"
+        android:name="cu.fiai.uci.somosuci.ui.fragments.CourseVPFragment"
+        android:label="@string/f_info"
+        tools:layout="@layout/fragment_course_vp" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="cu.fiai.uci.somosuci.ui.fragments.AboutUsFragment"
+        android:label="@string/f_aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/universityFragment"
+        android:name="cu.fiai.uci.somosuci.ui.fragments.UniversityFragment"
+        android:label="@string/f_university"
+        tools:layout="@layout/fragment_university" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="cu.fiai.uci.somosuci.ui.fragments.ContactFragment"
+        android:label="@string/F_contacts"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

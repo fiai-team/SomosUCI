@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">#SomosUCI</string>
+
+    <string name="ourUniversity">Nuestra Universidad</string>
+    <string name="courses">Carreras</string>
+    <string name="contacts">Contactos</string>
+    <string name="quiz">Quizzes</string>
+    <string name="ici">Ingeniería en \nCiencias Informáticas</string>
+    <string name="ibi">Ingeniería en \nBioinformática</string>
+    <string name="cs">Ingeniería en \nCiberseguridad</string>
+    <string name="red">Administración de Redes \ny Seguridad Informática</string>
+
+    <!--Completes on questions-->
+    <string name="c_ici">Ingeniero en Ciencias Informáticas?</string>
+    <string name="c_ibi">Ingeniero en Bioinformáticas?</string>
+    <string name="c_cs">Técnico Superior de Administración de Redes y Seguridad Informática?</string>
+    <string name="c_red">Ingeniero en Ciberseguridad?</string>
+
+    <!--About Us-->
+    <string name="est_arael_david_espinosa_p_rez">Est. Arael David Espinosa Pérez</string>
+    <string name="est_eddy_yoel_fresno_hern_ndez">Est. Eddy Yoel Fresno Hernández</string>
+    <string name="equipo_de_desarrollo">Equipo de Desarrollo:</string>
+    <string name="ing_yor_alex_reymond">Ing. Yor Alex Remond Recio</string>
+    <string name="developers">Desarrollado por:</string>
+    <string name="version">Versión</string>
+
+    <!--Labels-->
+    <string name="f_main">Bienvenid@</string>
+    <string name="f_game_select">Selecciona un juego</string>
+    <string name="f_game_quiz">Quiz</string>
+    <string name="f_courses">Cursos</string>
+    <string name="f_info">Información</string>
+    <string name="f_university">Universidad</string>
+
+    <string name="continueBtn">Continuar</string>
+
+    <string name="q1">¿Qué problemas resuelve un</string>
+    <string name="q2">¿Cuáles son los contenidos que durante la carrera debe asimilar un</string>
+    <string name="q3">¿En qué áreas de la sociedad puede ejercer un</string>
+    <string name="about_us">Acerca de</string>
+    <string name="f_aboutus">Acerca de</string>
+    <string name="F_contacts">Contactos</string>
+
+    <!--University section-->
+    <string name="campus">Ciudad tecnológica de avanzada, con una infraestructura de más de 150 edificaciones distribuidas en 268 hectáreas, dotada de amplias y modernas instalaciones al servicio a la comunidad universitaria.</string>
+    <string name="cultural_p_body">Atesoramos 33 obras originales donadas por destacadas figuras de las artes plásticas nacionales, en un entorno concebido como una gran galería de arte al aire libre de elevado valor patrimonial.</string>
+    <string name="residence_body">Nuestra residencia ocupa un lugar importante dentro del área de la Universidad, sus edificios y apartamentos dan la bienvenida a todos los estudiantes y a una gran parte de los profesores. La residencia es un espacio socialmente educativo y socializante, abierto a la participación y al diálogo a través de disímiles actividades. Dentro de las áreas del campus se ofrecen otros servicios, tales como piscina, áreas deportivas, cafeterías, pizzerías, agencia de pasajes, bancos, barbería, peluquería, salón de belleza, tiendas, entre otros.</string>
+    <string name="connected_to_the_future">\"Conectados al Futuro\"</string>
+    <string name="campus_title">Campus</string>
+    <string name="residence_title">Residencia</string>
+    <string name="cultural_p_title">Patrimonio Cultural</string>
+    <string name="sports_title">Deportes</string>
+    <string name="sports_body">Instalaciones para diversas disciplinas nos permiten asumir la realización de eventos deportivos. El juego ciencia recibe una atención especial a través de la Cátedra Honorífica de Ajedrez “Remberto Fernández”.</string>
+    <string name="communication_title">Comunicación</string>
+    <string name="communication_body">Gestionamos los procesos de comunicación internos y externos para fortalecer nuestra identidad sobre la base de valores compartidos, y garantizar la construcción de una imagen institucional adecuada.</string>
+    <string name="events_title">Eventos</string>
+    <string name="events_body">Organizamos, participamos y promovemos importantes eventos científicos, académicos, sociales, políticos, culturales y deportivos, a nivel nacional e internacional.</string>
+    <string name="graduated_title">Egresados</string>
+    <string name="graduated_body">Durante 17 años hemos graduado 15 052 Ingenieros en Ciencias Informáticas con un alto nivel de especialización en el trabajo con las Tecnologías de la Información y la Comunicación (TIC).</string>
+
+    <!--Contact fragment-->
+    <string name="we_are_in">Estamos en</string>
+    <string name="follow_us">Síguenos en</string>
+    <string name="for_dudes">Ante alguna duda</string>
+
+</resources>

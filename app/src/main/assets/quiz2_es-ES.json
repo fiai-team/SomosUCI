@@ -1,0 +1,238 @@
+{
+  "about": "¿Qué rol en el desarrollo de software va contigo?",
+  "answerTitle": "Serás un gran: ",
+  "answerList": [
+    {
+      "possibleItem": [
+        {
+          "title": "Programador",
+          "explication": "Es, en el proceso de desarrollo de software, quien implementa el código. Lleva la idea final a un programa funcional."
+        }
+      ]
+    },
+    {
+      "possibleItem": [
+        {
+          "title": "Analista",
+          "explication": "Es, en el proceso de desarrollo de software, quien se encarga de elegir y maquetar el producto en su forma más pura para luego ser implementado."
+        }
+      ]
+    },
+    {
+      "possibleItem": [
+        {
+          "title": "Diseñador",
+          "explication": "Es, en el proceso de desarrollo de software, quien desarrolla las interfaces con las que interactúa el usuario final: la UX."
+        }
+      ]
+    },
+    {
+      "possibleItem": [
+        {
+          "title": "Jefe de Proyecto",
+          "explication": "Es, en el proceso de desarrollo de software, quien dirige las labores generales y chequea cada etapa a la véz que tiene autoridad para orientar el producto final."
+        }
+      ]
+    },
+    {
+      "possibleItem": [
+        {
+          "title": "Probador",
+          "explication": "Es, en el proceso de desarrollo de software, quien se encarga de hacer las pruebas de muy variados tipos al producto para hacer un correcto control de calidad."
+        }
+      ]
+    }
+  ],
+  "questionList": [
+    {
+      "title": "¿Qué haces cuando te orientan un trabajo práctico?",
+      "options": [
+        {
+          "text": "Me pongo a buscar información necesaria para dividirla en el equipo.",
+          "pointToList": [
+            1
+          ]
+        },
+        {
+          "text": "Agrupo a mis compañeros y distribuyo las tareas.",
+          "pointToList": [
+            3
+          ]
+        },
+        {
+          "text": "Siempre pido lo más corto: introducción, conclusiones y anexos.",
+          "pointToList": [
+            2
+          ]
+        },
+        {
+          "text": "Espero a que acaben y me den algo para aprenderme.",
+          "pointToList": [
+            0
+          ]
+        },
+        {
+          "text": "Espero a que acaben, reviso todo y corrijo si es necesario.",
+          "pointToList": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Cómo consigues la información para las tareas investigativas?",
+      "options": [
+        {
+          "text": "Busco resúmenes de otros años.",
+          "pointToList": [
+            1
+          ]
+        },
+        {
+          "text": "Uso muchas bibliografías en formato físico y digital.",
+          "pointToList": [
+            4
+          ]
+        },
+        {
+          "text": "Uso lo que consigan mis compañeros.",
+          "pointToList": [
+            2
+          ]
+        },
+        {
+          "text": "Espero a que otros terminen el trabajo y me den mi parte.",
+          "pointToList": [
+            0
+          ]
+        },
+        {
+          "text": "Organizo el equipo, reparto tareas y luego nos complementamos.",
+          "pointToList": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Qué es lo que más te desmotiva al usar una app o página web?",
+      "options": [
+        {
+          "text": "Que esté fea.",
+          "pointToList": [
+            2
+          ]
+        },
+        {
+          "text": "Que esté lenta.",
+          "pointToList": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Que no encuentre lo que busco.",
+          "pointToList": [
+            3
+          ]
+        },
+        {
+          "text": "Que se cierre sola porque claramente hay algún error.",
+          "pointToList": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Qué dispositivos usas más tiempo?",
+      "options": [
+        {
+          "text": "El celular.",
+          "pointToList": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "El ordenador.",
+          "pointToList": [
+            0
+          ]
+        },
+        {
+          "text": "La consola de videojuegos.",
+          "pointToList": [
+            4
+          ]
+        },
+        {
+          "text": "Donde sea para acceder a la web.",
+          "pointToList": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Qué tan conformista eres?",
+      "options": [
+        {
+          "text": "Si tiene lo que preguntan, pues está listo.",
+          "pointToList": [
+            0
+          ]
+        },
+        {
+          "text": "Tiene que quedar perfecto y bien explicado.",
+          "pointToList": [
+            2
+          ]
+        },
+        {
+          "text": "Nunca entiendo bien lo que piden, así que me aseguro de cubrir todo lo que necesite.",
+          "pointToList": [
+            3
+          ]
+        },
+        {
+          "text": "Me preparo para tener datos extras de cada punto de interés.",
+          "pointToList": [
+            1
+          ]
+        },
+        {
+          "text": "Si veo algo flojo, reviso todo de nuevo.",
+          "pointToList": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "title": "¿Dónde es un lugar cómodo para trabajar?",
+      "options": [
+        {
+          "text": "En una oficina con muchos compañeros.",
+          "pointToList": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "En una oficina personal.",
+          "pointToList": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "En la casa.",
+          "pointToList": [
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}
