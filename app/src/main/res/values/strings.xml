@@ -28,7 +28,7 @@
     <string name="f_main">Bienvenid@</string>
     <string name="f_game_select">Selecciona un juego</string>
     <string name="f_game_quiz">Quiz</string>
-    <string name="f_courses">Cursos</string>
+    <string name="f_courses">Carreras</string>
     <string name="f_info">Información</string>
     <string name="f_university">Universidad</string>
 
@@ -63,5 +63,7 @@
     <string name="follow_us">Síguenos en</string>
     <string name="for_dudes">Ante alguna duda</string>
     <string name="visit">Visita nuestra Universidad</string>
+    <string name="uci_username">/universidad_uci</string>
+    <string name="youtube_channel_name">/informativouci</string>
 
 </resources>

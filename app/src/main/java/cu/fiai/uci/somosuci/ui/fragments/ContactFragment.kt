@@ -58,22 +58,18 @@ class ContactFragment : Fragment() {
                 contact.apply {
                     _address.text = address
 
-                    _facebook.text = facebook
                     _goFacebook.setOnClickListener {
                         goWebPage(facebook!!)
                     }
 
-                    _twitter.text = twitter
                     _goTwitter.setOnClickListener {
                         goWebPage(twitter!!)
                     }
 
-                    _youtube.text = youtube
                     _goYoutube.setOnClickListener {
                         goWebPage(youtube!!)
                     }
 
-                    _linkedin.text = linkedin
                     _goLinkedin.setOnClickListener {
                         goWebPage(linkedin!!)
                     }

@@ -88,13 +88,12 @@
             android:textSize="21sp"
             app:layout_constraintTop_toBottomOf="@+id/_fiaiName" />
 
-
         <TextView
             android:id="@+id/_teamMember1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/est_eddy_yoel_fresno_hern_ndez"
+            android:text="@string/ing_yor_alex_reymond"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="18sp"
@@ -111,13 +110,12 @@
             android:textSize="18sp"
             app:layout_constraintTop_toBottomOf="@+id/_teamMember1" />
 
-
         <TextView
             android:id="@+id/_teamMember3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/ing_yor_alex_reymond"
+            android:text="@string/est_eddy_yoel_fresno_hern_ndez"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="18sp"

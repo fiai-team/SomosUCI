@@ -52,7 +52,8 @@ class GameQuizFragment : Fragment() {
 
         _quizTitle.text = mainViewModel.selectedQuiz.about
 
-        setQuestion()
+        if (mainViewModel.selectedQuiz.about.isEmpty()) navController.popBackStack(R.id.mainFragment, false)
+        else setQuestion()
     }
 
     private fun setQuestion() {
@@ -125,6 +126,8 @@ class GameQuizFragment : Fragment() {
         dialog.setCancelable(false)
         dialog.setContentView(R.layout.dialog_end_quiz)
 
+        val metrics = resources.displayMetrics
+        dialog._title.layoutParams.width = metrics.widthPixels * 4/5
         dialog._title.text = answerTitle
 
         dialog._answerTitle.text = theOne.title

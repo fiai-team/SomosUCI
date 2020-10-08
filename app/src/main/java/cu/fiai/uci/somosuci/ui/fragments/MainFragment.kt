@@ -1,6 +1,8 @@
 package cu.fiai.uci.somosuci.ui.fragments
 
 import android.animation.ObjectAnimator
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -61,6 +63,16 @@ class MainFragment : Fragment() {
         _courses.setOnClickListener {
             navController.navigate(R.id.action_mainFragment_to_coursesListFragment)
         }
+
+        _goUci.setOnClickListener {
+            startActivity(
+                Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse(_goUci.text.toString())
+                )
+            )
+        }
+
         putImg()
     }
 

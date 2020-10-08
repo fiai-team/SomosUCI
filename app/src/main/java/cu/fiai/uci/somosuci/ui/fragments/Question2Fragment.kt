@@ -9,6 +9,8 @@ import androidx.core.animation.doOnEnd
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.NavController
+import androidx.navigation.fragment.findNavController
 import cu.fiai.uci.somosuci.R
 import cu.fiai.uci.somosuci.viewmodels.MainViewModel
 import kotlinx.android.synthetic.main.fragment_question2.*
@@ -16,6 +18,7 @@ import kotlinx.android.synthetic.main.fragment_question2.*
 class Question2Fragment : Fragment() {
 
     private lateinit var mainViewModel: MainViewModel
+    private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +41,13 @@ class Question2Fragment : Fragment() {
     }
 
     private fun configView() {
+        navController = findNavController()
+
+        if (mainViewModel.selectedCourse.question1 == null) navController.popBackStack(R.id.mainFragment, false)
+        else setInfo()
+    }
+
+    private fun setInfo(){
         _titleQ2.text = getString(R.string.q2) + " " + mainViewModel.rol
         _bodyQ2.text = mainViewModel.selectedCourse.question2
 

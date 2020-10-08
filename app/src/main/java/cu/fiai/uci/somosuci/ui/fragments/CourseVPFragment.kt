@@ -44,6 +44,11 @@ class CourseVPFragment : Fragment() {
     private fun configView() {
         navController = findNavController()
 
+        if (mainViewModel.selectedCourse.question1 == null) navController.popBackStack(R.id.mainFragment, false)
+        else setCourseInfo()
+    }
+
+    private fun setCourseInfo(){
         _viewPager.adapter = SectionsPagerAdapter(childFragmentManager)
         _vpIndicator.setupWithViewPager(_viewPager)
         _vpIndicator.addOnPageChangeListener(viewListener)

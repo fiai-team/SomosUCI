@@ -82,6 +82,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
+                    android:text="@string/uci_username"
                     android:textColor="@android:color/white" />
 
             </LinearLayout>
@@ -112,6 +113,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
+                    android:text="@string/uci_username"
                     android:textColor="@android:color/white" />
 
             </LinearLayout>
@@ -142,6 +144,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
+                    android:text="@string/youtube_channel_name"
                     android:textColor="@android:color/white" />
 
             </LinearLayout>
@@ -172,6 +175,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
+                    android:text="U.C.I."
                     android:textColor="@android:color/white" />
 
             </LinearLayout>

@@ -123,11 +123,22 @@
 
         </androidx.cardview.widget.CardView>
 
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/_goUci"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="https://www.uci.cu"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            app:layout_constraintTop_toBottomOf="@id/_games" />
+
         <View
             android:layout_width="0dp"
             android:layout_height="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/_games" />
+            app:layout_constraintTop_toBottomOf="@id/_goUci" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
